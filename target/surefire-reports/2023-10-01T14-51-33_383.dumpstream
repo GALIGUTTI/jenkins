@@ -1,0 +1,15 @@
+# Created on 2023-10-01T14:51:33.399
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2023-10-01T14:51:33.399
+WARNING: Illegal reflective access by org.apache.beam.runners.direct.repackaged.com.google.protobuf.UnsafeUtil (file:/C:/Users/bhuva/.m2/repository/org/apache/beam/beam-runners-direct-java/2.1.0/beam-runners-direct-java-2.1.0.jar) to field java.nio.Buffer.address
+
+# Created on 2023-10-01T14:51:33.399
+WARNING: Please consider reporting this to the maintainers of org.apache.beam.runners.direct.repackaged.com.google.protobuf.UnsafeUtil
+
+# Created on 2023-10-01T14:51:33.406
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2023-10-01T14:51:33.406
+WARNING: All illegal access operations will be denied in a future release
+

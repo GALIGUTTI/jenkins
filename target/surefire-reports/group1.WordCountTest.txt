@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: group1.WordCountTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.373 s <<< FAILURE! - in group1.WordCountTest
+testExtractWordsFn(group1.WordCountTest)  Time elapsed: 0.647 s  <<< ERROR!
+java.lang.UnsupportedOperationException: Cannot define class using reflection
+	at group1.WordCountTest.testExtractWordsFn(WordCountTest.java:54)
+Caused by: java.lang.IllegalArgumentException: Unknown Java version: 11
+	at group1.WordCountTest.testExtractWordsFn(WordCountTest.java:54)
+
+testCountWords(group1.WordCountTest)  Time elapsed: 1.373 s  <<< ERROR!
+org.apache.beam.runners.direct.repackaged.com.google.common.util.concurrent.UncheckedExecutionException: java.lang.UnsupportedOperationException: Cannot define class using reflection
+	at group1.WordCountTest.testExtractWordsFn(WordCountTest.java:54)
+

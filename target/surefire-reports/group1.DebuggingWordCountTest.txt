@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: group1.DebuggingWordCountTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.095 s <<< FAILURE! - in group1.DebuggingWordCountTest
+testDebuggingWordCount(group1.DebuggingWordCountTest)  Time elapsed: 2.095 s  <<< ERROR!
+org.apache.beam.sdk.Pipeline$PipelineExecutionException: java.lang.IllegalStateException: Unable to find registrar for c
+	at group1.DebuggingWordCountTest.testDebuggingWordCount(DebuggingWordCountTest.java:50)
+Caused by: java.lang.IllegalStateException: Unable to find registrar for c
+
